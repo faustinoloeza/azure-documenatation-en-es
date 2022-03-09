@@ -1,9 +1,19 @@
-Azure Documentación en español e ingles
+# Azure Documentación en español e ingles
 
-# Regiones y zonas de disponibilidad
-
-
+## Regiones y zonas de disponibilidad
 
 | Regions and availability zones | Regiones y zonas de disponibilidad |
 | ------------- | ------------- |
 | Azure regions and availability zones are designed to help you achieve resiliency and reliability for your business-critical workloads. Azure maintains multiple geographies. These discrete demarcations define disaster recovery and data residency boundaries across one or multiple Azure regions. Maintaining many regions ensures customers are supported across the world.  | Las regiones y zonas de disponibilidad de Azure están diseñadas para ayudarte a lograr resistencia y confiabilidad para tus cargas de trabajo críticas para el negocio. Azure mantiene varias zonas geográficas. Estas demarcaciones discretas definen la recuperación ante desastres y los límites de residencia de datos en una o varias regiones de Azure. El mantenimiento de muchas regiones garantiza que se admita a clientes de todo el mundo.  |
+
+## Regiones
+
+| Regions | Segundo encabezado |
+| ------------- | ------------- |
+| Each Azure region features datacenters deployed within a latency-defined perimeter. They're connected through a dedicated regional low-latency network. This design ensures that Azure services within any region offer the best possible performance and security.  | Cada región de Azure incluye centros de datos implementados en un perímetro definido por la latencia. Están conectados a través de una red regional dedicada de baja latencia. Este diseño garantiza que los servicios de Azure dentro de cualquier región ofrezcan el mejor rendimiento y seguridad posibles.  |
+
+## Zonas de disponibilidad
+
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Azure availability zones are physically separate locations within each Azure region that are tolerant to local failures. Failures can range from software and hardware failures to events such as earthquakes, floods, and fires. Tolerance to failures is achieved because of redundancy and logical isolation of Azure services. To ensure resiliency, a minimum of three separate availability zones are present in all availability zone-enabled regions. Azure availability zones are connected by a high-performance network with a round-trip latency of less than 2ms. They help your data stay synchronized and accessible when things go wrong. Each zone is composed of one or more datacenters equipped with independent power, cooling, and networking infrastructure. Availability zones are designed so that if one zone is affected, regional services, capacity, and high availability are supported by the remaining two zones.![alt text](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones.png "Azure") | Las zonas de disponibilidad de Azure son ubicaciones separadas físicamente dentro de cada región de Azure y toleran los errores locales. Estos errores pueden abarcar desde errores de software y hardware hasta eventos como terremotos, inundaciones e incendios. La tolerancia a los errores se logra gracias a la redundancia y el aislamiento lógico de los servicios de Azure. Para garantizar la resistencia, se configuran un mínimo de tres zonas de disponibilidad independientes en todas las regiones habilitadas. Estas zonas de disponibilidad de Azure se conectan mediante una red de alto rendimiento que cuenta con una latencia de ida y vuelta inferior a 2 milisegundos. Asimismo, le ayudan a sincronizar los datos y a mantenerlos accesibles cuando las cosas van mal. Cada zona consta de uno o varios centros de datos equipados con una infraestructura de alimentación, refrigeración y redes independientes. Las zonas de disponibilidad están diseñadas de manera que, si se ve afectada una zona, los servicios regionales, la capacidad y la alta disponibilidad serán compatibles con las dos zonas restantes. ![alt text](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones.png "Azure")|
